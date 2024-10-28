@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+            color: #333;
+        }
+        h1 {
+            color: #0077cc;
+        }
+        .destination {
+            color: #d2691e;
+        }
+        .highlight {
+            background-color: #ffe4e1;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Restaurants in Monterrey</h1>
+        <p>The best restaurants in the City.</p>
+    </header>
+
+    <section>
+        <h2 class="destination">Top Destinations</h2>
+        <p>Discover breathtaking places to eat in this year..</p>
+        <ul>
+            <li>Casino Monterrey</li>
+            <li>Oxxo</li>
+            <li>La comer</li>
+            <li>Italiannis</li>
+        </ul>
+        
+        <h2>Eating Tips</h2>
+        <p>Be careful when eating</p>
+        <ol>
+            <li>Always pack your own eating utensils.</li>
+            <li>Bring napkins.</li>
+            <li>Try the different sauces.</li>
+        </ol>
+    </section>
+
+    <section>
+        <h2>Explore More</h2>
+        <div class="highlight">
+            <p>Join our newsletter to receive updates on travel deals and tips!</p>
+        </div>
+        <img src="https://example.com/bali.jpg" alt="Beautiful Casino" />
+        <img src="https://example.com/paris.jpg" alt="Iconic Huevos Revueltos" />
+        <img src="https://example.com/tokyo.jpg" alt="Chilli Food" />
+    </section>
+
+    <footer>
+        <p></p>
+    </footer>
+
+</body>
+</html>
